@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="uni.fisal.king.dttbgci.Edit_profileActivity">
+
+
+    <RelativeLayout
+        android:id="@+id/RelativeLayout01"
+        android:layout_width="match_parent"
+        android:layout_height="327dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="29dp"
+        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.544">
+
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/pw_edit"
+            android:layout_alignBottom="@+id/pw_edit"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="62dp"
+            android:layout_marginStart="62dp"
+            android:text="Password"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/full_name_edit"
+            android:layout_alignBottom="@+id/full_name_edit"
+            android:layout_alignLeft="@+id/textView2"
+            android:layout_alignStart="@+id/textView2"
+            android:text="Full Name"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/id_edit"
+            android:layout_alignBottom="@+id/id_edit"
+            android:layout_alignEnd="@+id/textView2"
+            android:layout_alignRight="@+id/textView2"
+            android:text="National ID"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/mobile_edit"
+            android:layout_alignBottom="@+id/mobile_edit"
+            android:layout_alignEnd="@+id/textView3"
+            android:layout_alignRight="@+id/textView3"
+            android:text="Mobile"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/address_edit"
+            android:layout_alignBottom="@+id/address_edit"
+            android:layout_alignEnd="@+id/textView5"
+            android:layout_alignRight="@+id/textView5"
+            android:text="Address"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+
+        <EditText
+            android:id="@+id/pw_edit"
+            android:layout_width="213dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toEndOf="@+id/textView3"
+            android:layout_toRightOf="@+id/textView3"
+            android:ems="10"
+            android:inputType="textPassword" />
+
+        <EditText
+            android:id="@+id/full_name_edit"
+            android:layout_width="213dp"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/pw_edit"
+            android:layout_alignStart="@+id/pw_edit"
+            android:layout_below="@+id/pw_edit"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/mobile_edit"
+            android:layout_width="213dp"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/pw_edit"
+            android:layout_alignStart="@+id/pw_edit"
+            android:layout_below="@+id/full_name_edit"
+            android:ems="10"
+            android:hint="Format:9665xxxxxxxx"
+            android:inputType="number"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/id_edit"
+            android:layout_width="213dp"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/mobile_edit"
+            android:layout_alignStart="@+id/mobile_edit"
+            android:layout_below="@+id/mobile_edit"
+            android:ems="10"
+            android:inputType="number"
+            android:textSize="14sp" />
+
+
+        <EditText
+            android:id="@+id/address_edit"
+            android:layout_width="213dp"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/mobile_edit"
+            android:layout_alignRight="@+id/mobile_edit"
+            android:layout_below="@+id/id_edit"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/certif_edit"
+            android:layout_alignBottom="@+id/certif_edit"
+            android:layout_alignEnd="@+id/textView6"
+            android:layout_alignRight="@+id/textView6"
+            android:text="Certificate"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/certif_edit"
+            android:layout_width="213dp"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/id_edit"
+            android:layout_alignStart="@+id/id_edit"
+            android:layout_below="@+id/address_edit"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/textView4"
+            android:layout_alignRight="@+id/textView4"
+            android:layout_below="@+id/certif_edit"
+            android:layout_marginTop="12dp"
+            android:text="Diabetes Type"
+            android:textStyle="bold" />
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="213dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/textView8"
+            android:layout_alignLeft="@+id/certif_edit"
+            android:layout_alignStart="@+id/certif_edit" />
+
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="271dp"
+        android:layout_height="46dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="440dp"
+        android:onClick="delete"
+        android:text="Delete account"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.779" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="271dp"
+        android:layout_height="46dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="440dp"
+        android:onClick="save"
+        android:text="Save change"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.275" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="32dp"
+        android:fontFamily="serif"
+        android:text="Edit Profile"
+        android:textColor="#8c2020"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</android.support.constraint.ConstraintLayout>

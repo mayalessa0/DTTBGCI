@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "794639187196",
+    "firebase_url": "https://dttbgci.firebaseio.com",
+    "project_id": "dttbgci",
+    "storage_bucket": "dttbgci.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:794639187196:android:d43c9fe48aa8688b",
+        "android_client_info": {
+          "package_name": "uni.fisal.king.dttbgci"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "794639187196-g0i0pu27jektapvum6nq5vgs29svomk8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAYqVE5Aii5Rv4ABS3KvplRpNFDBut9chM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="uni.fisal.king.dttbgci.View_profileActivity">
+
+
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="32dp"
+        android:fontFamily="serif"
+        android:text="Profile"
+        android:textColor="#8c2020"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <RelativeLayout
+        android:id="@+id/RelativeLayout01"
+        android:layout_width="414dp"
+        android:layout_height="373dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="136dp"
+        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.544">
+
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignTop="@+id/pw_edit"
+            android:layout_marginLeft="59dp"
+            android:layout_marginStart="59dp"
+            android:text="Password"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/textView5"
+            android:layout_alignParentTop="true"
+            android:layout_alignRight="@+id/textView5"
+            android:text="Username"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/full_name_edit"
+            android:layout_alignBottom="@+id/full_name_edit"
+            android:layout_alignLeft="@+id/textView2"
+            android:layout_alignStart="@+id/textView2"
+            android:layout_marginTop="500dp"
+            android:text="Full Name"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/id_edit"
+            android:layout_alignBottom="@+id/id_edit"
+            android:layout_alignEnd="@+id/textView2"
+            android:layout_alignRight="@+id/textView2"
+            android:text="National ID"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/mobile_edit"
+            android:layout_alignBottom="@+id/mobile_edit"
+            android:layout_alignEnd="@+id/textView3"
+            android:layout_alignRight="@+id/textView3"
+            android:text="Mobile"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/address_edit"
+            android:layout_alignBottom="@+id/address_edit"
+            android:layout_alignEnd="@+id/textView5"
+            android:layout_alignRight="@+id/textView5"
+            android:text="Address"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/pw_edit"
+            android:layout_width="213dp"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView10"
+            android:layout_alignStart="@+id/textView10"
+            android:layout_below="@+id/textView10"
+            android:layout_marginTop="24dp"
+            android:ems="10"
+            android:text="*********"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/full_name_edit"
+            android:layout_width="213dp"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/pw_edit"
+            android:layout_alignStart="@+id/pw_edit"
+            android:layout_below="@+id/textView2"
+            android:layout_marginTop="25dp"
+            android:ems="10"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/mobile_edit"
+            android:layout_width="213dp"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/full_name_edit"
+            android:layout_alignStart="@+id/full_name_edit"
+            android:layout_below="@+id/full_name_edit"
+            android:layout_marginTop="25dp"
+            android:ems="10"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/id_edit"
+            android:layout_width="213dp"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/mobile_edit"
+            android:layout_alignStart="@+id/mobile_edit"
+            android:layout_below="@+id/textView6"
+            android:layout_marginTop="29dp"
+            android:ems="10"
+            android:textSize="16sp" />
+
+
+        <TextView
+            android:id="@+id/address_edit"
+            android:layout_width="213dp"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/id_edit"
+            android:layout_alignStart="@+id/id_edit"
+            android:layout_below="@+id/id_edit"
+            android:layout_marginTop="27dp"
+            android:ems="10"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/certif_edit"
+            android:layout_alignBottom="@+id/certif_edit"
+            android:layout_alignEnd="@+id/textView6"
+            android:layout_alignRight="@+id/textView6"
+            android:textColor="@android:color/black"
+            android:text="Certificate"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/certif_edit"
+            android:layout_width="213dp"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/address_edit"
+            android:layout_alignStart="@+id/address_edit"
+            android:layout_below="@+id/address_edit"
+            android:layout_marginTop="29dp"
+            android:ems="10"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/textView6"
+            android:layout_alignParentBottom="true"
+            android:layout_alignRight="@+id/textView6"
+            android:layout_marginBottom="24dp"
+            android:text="Diabetes Type"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/type_TV"
+            android:layout_width="213dp"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/address_edit"
+            android:layout_alignStart="@+id/address_edit"
+            android:layout_alignTop="@+id/textView8"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="213dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/textView9"
+            android:layout_marginLeft="15dp"
+            android:layout_marginStart="15dp"
+            android:layout_toEndOf="@+id/textView3"
+            android:layout_toRightOf="@+id/textView3"
+            android:textSize="16sp" />
+
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="201dp"
+        android:layout_height="43dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="440dp"
+        android:layout_marginBottom="8dp"
+        android:onClick="Edit"
+        android:text="Edit profile"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.447"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.928" />
+
+    <Button
+        android:id="@+id/button23"
+        android:layout_width="201dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:onClick="view_medi_info"
+        android:text="View Medical info"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.443"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.895" />
+
+
+</android.support.constraint.ConstraintLayout>

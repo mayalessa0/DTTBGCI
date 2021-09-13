@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">DTTBGCI</string>
+    <string name="Open">open</string>
+    <string name="Close">close</string>
+    <string name="error_get_average">Failed calculate average!! user should has 7 sugar level recorded in database for 7 sequential days until today date</string>
+    <string-array name="diabetes_type">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="program_type">
+        <item>Diet</item>
+        <item>Exercises</item>
+    </string-array>
+    <string name="FCM_PREF">uni.fisal.king.dttbgci.fcm_pref</string>
+    <string name="FCM_TOKEN">uni.fisal.king.dttbgci.fcm_token</string>
+</resources>
